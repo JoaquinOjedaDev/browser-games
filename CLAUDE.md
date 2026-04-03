@@ -6,6 +6,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a collection of self-contained browser games — each game is a single `.html` file with all logic, styles, and assets inlined. No build tools, no dependencies, no server required.
 
+## Git & GitHub Workflow
+
+This project uses https://github.com/JoaquinOjedaDev/browser-games. **After every meaningful unit of work — a new feature, a bug fix, any non-trivial change — commit and push immediately.** Never batch up multiple unrelated changes into one commit.
+
+```bash
+git add <files>
+git commit -m "short imperative summary"
+git push
+```
+
+Commit message rules: imperative mood, lowercase, no period. Describe *what* changed and *why* if it isn't obvious. The goal is that no work is ever lost and the history reads cleanly.
+
 ## Running / Testing
 
 Open any `.html` file directly in a browser:
